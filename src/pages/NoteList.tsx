@@ -1,8 +1,8 @@
-import useNoteStore, { Tag } from "../store/noteStore";
-import { NoteCard } from "../components/NoteCard";
-import { Col, Form, Row, Stack } from "react-bootstrap";
-import ReactSelect from "react-select";
 import { useMemo, useState } from "react";
+import { Col, Form, Row } from "react-bootstrap";
+import ReactSelect from "react-select";
+import { NoteCard } from "../components/NoteCard";
+import useNoteStore, { Tag } from "../store/noteStore";
 
 export const NoteList = () => {
   const { notes, tags } = useNoteStore();

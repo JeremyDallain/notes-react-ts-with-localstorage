@@ -1,6 +1,6 @@
+import { Badge, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useNoteStore, { Note } from "../store/noteStore";
-import { Badge, Button, Card } from "react-bootstrap";
 
 interface Props {
   note: Note;

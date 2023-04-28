@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link, Navigate, Route, Routes } from "react-router-dom";
-import "./App.css";
-import { NoteList } from "./pages/NoteList";
-import { AddNote } from "./pages/AddNote";
-import { NoteLayout } from "./components/NoteLayout";
-import { Note } from "./pages/Note";
-import { EditNote } from "./pages/EditNote";
-import { Tags } from "./pages/Tags";
 import { Container } from "react-bootstrap";
+import { Navigate, Route, Routes } from "react-router-dom";
+import "./App.css";
 import { Navigation } from "./components/Navigation";
+import { NoteLayout } from "./components/NoteLayout";
+import { AddNote } from "./pages/AddNote";
+import { EditNote } from "./pages/EditNote";
+import { Note } from "./pages/Note";
+import { NoteList } from "./pages/NoteList";
+import { Tags } from "./pages/Tags";
 
 function App() {
   return (

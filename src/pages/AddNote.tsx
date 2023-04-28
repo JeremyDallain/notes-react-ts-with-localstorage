@@ -1,8 +1,8 @@
 import { FormEvent, useRef, useState } from "react";
-import useNoteStore, { Tag } from "../store/noteStore";
+import { Button, Col, Form, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import CreatableReactSelect from "react-select/creatable";
-import { Form, Button, Row, Col } from "react-bootstrap";
+import useNoteStore, { Tag } from "../store/noteStore";
 
 export const AddNote = () => {
   const titleRef = useRef<HTMLInputElement>(null);

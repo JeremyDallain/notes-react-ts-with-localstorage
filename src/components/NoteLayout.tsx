@@ -1,4 +1,4 @@
-import { Navigate, Outlet, useOutletContext, useParams } from "react-router-dom"
+import { Navigate, Outlet, useParams } from "react-router-dom";
 import useNoteStore from "../store/noteStore";
 
 

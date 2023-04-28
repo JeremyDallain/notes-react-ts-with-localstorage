@@ -1,7 +1,7 @@
+import { Badge, Button, Col, Row, Stack } from "react-bootstrap";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import useNoteStore, { Note as NodeType } from "../store/noteStore";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import { Badge, Button, Col, Row, Stack } from "react-bootstrap";
 
 export const Note = () => {
   const navigate = useNavigate();
