@@ -1,9 +1,8 @@
 import { FormEvent, useRef } from "react";
-import useNoteStore, { Tag } from "../store/noteStore";
+import useNoteStore from "../store/noteStore";
 import {
   Button,
   Col,
-  Container,
   Form,
   FormControl,
   InputGroup,
